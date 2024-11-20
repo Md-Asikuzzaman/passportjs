@@ -1,6 +1,6 @@
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
-import { prisma } from './../db/db.js';
+import { prisma } from '../db/db.js';
 
 passport.use(
   new LocalStrategy(

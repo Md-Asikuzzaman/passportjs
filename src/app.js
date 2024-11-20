@@ -3,6 +3,7 @@ import router from './routes/index.js';
 import bodyParser from 'body-parser';
 import session from 'express-session';
 import passport from 'passport';
+import './config/passportConfig.js';
 
 const port = 8080;
 const app = express();
